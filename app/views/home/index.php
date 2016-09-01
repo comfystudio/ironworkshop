@@ -12,8 +12,8 @@
                     <?php foreach ($this->homepage[0]['images'] as $image){?>
                         <li class="slide">
                             <div class="slide-text">
-                                <h4 class="wow rollIn" data-wow-delay="1s">Iron Workshop</h4>
-                                <h2 class="wow fadeInDown" data-wow-delay="1s">Belfast Gym</h2>
+                                <h4 class="wow rollIn" data-wow-delay="1s"></h4>
+                                <h2 class="wow fadeInDown" data-wow-delay="1s">Iron Workshop</h2>
                                 <h5 class="wow bounceInRight" data-wow-delay="1s"><?php echo $this->homepage[0]['title']?></h5>
                             </div>
                             <img src="/assets/uploads/homepages/<?php echo $image['image']?>" alt="<?php echo $image['title']?>" style = "width:1920px">
@@ -32,7 +32,7 @@
 
 
         <!-- === START INFO SECTION === -->
-        <div class="info-section">
+        <div class="info-section" style = "padding-bottom: 40px;">
             <div class="container">
                 <div class="col-md-4">
                     <div class="info-details d-bg-c wow bounceInLeft">
@@ -99,9 +99,39 @@
         </div>
         <!-- === END INFO SECTION === -->
 
+        <!-- START SOCIAL MEDIA -->
+        <div class="pricing-section grey" id="shop-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 wow bounceInLeft">
+                        <div class="pricing-table">
+                            <div class="pricing-table-price d-bg-c"><span>Facebook</span></div>
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FIron-Workshop-1479599665631954&tabs=timeline&width=5000&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden;margin-left:25px; " scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                        </div>
+                    </div>
+                    <!--                    <div class="col-md-6 wow fadeInDown">-->
+                    <!--                        <div class="pricing-table popular-table d-bg-c">-->
+                    <!--                            <div class="pricing-table-price d-text-c"><span>Twitter</span></div>-->
+                    <!--                            <a class="twitter-timeline" href="https://twitter.com/gwam831" data-widget-id="740072657144696833"  width="500" height="500" style = "margin-left:25px;">Tweets by @gwam831</a>-->
+                    <!--                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><!--                            <ul class="pricing-table-stuff">-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+
+                    <div class="col-md-6 wow fadeInDown">
+                        <div class="pricing-table popular-table d-bg-c">
+                            <div class="pricing-table-price d-text-c"><span>Instagram</span></div>
+                            <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 0 auto; max-width:420px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BBki1S7DXc0/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A photo posted by Iron Workshop Ltd (@ironworkshopgym)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-02-09T15:44:40+00:00">Feb 9, 2016 at 7:44am PST</time></p></div></blockquote>
+                            <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END SOCIAL MEDIA -->
+
 
         <!-- === START ABOUT === -->
-        <div class="about-section" id="about-section">
+        <div class="about-section" id="about-section" style = "padding-bottom: 40px;">
             <div class="container">
                 <div class="site-title wow fadeInDown">
                     <p>A few words about us</p>
@@ -269,11 +299,14 @@
                                 <div class="trainer wow <?php echo $class?>">
                                     <a href = "/results/view/<?php echo $result['id'];?>"/>
 
-                                    <img src="/assets/uploads/results/<?php echo $result['image']?>" alt="<?php echo $result['image']?>" />
+                                        <img src="/assets/uploads/results/<?php echo $result['image']?>" alt="<?php echo $result['image']?>" />
 
-                                    <div class="trainer-info">
-                                        <p><?php echo $result['text']?></p>
-                                    </div>
+                                        <div class="trainer-info">
+                                            <p><?php echo $result['text']?></p>
+                                            <?php if(isset($result['name']) && !empty($result['name'])){?>
+                                                <p>Trained By: <?php echo $result['name'];?></p>
+                                            <?php } ?>
+                                        </div>
                                     </a>
                                 </div>
                             </div>
@@ -284,27 +317,45 @@
         </div>
         <!-- === END PURCHASE === -->
 
-        <!-- START SOCIAL MEDIA -->
-        <div class="pricing-section white" id="shop-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 wow bounceInLeft">
-                        <div class="pricing-table">
-                            <div class="pricing-table-price d-bg-c"><span>Facebook</span></div>
-                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FIron-Workshop-1479599665631954&tabs=timeline&width=5000&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden;margin-left:25px; " scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-                        </div>
+        <!-- === Gallery === -->
+        <div class="gallery-section wow fadeInDown carousel" id="gallery-section" data-theme-plugin="carousel" data-theme-container=".carousel-items" data-theme-item="&gt;div" data-theme-rotate="false" data-theme-autoplay="false" data-theme-hide-effect="false">
+            <div class="bg-cover">
+                <div class="container">
+                    <div class="site-title wow bounceInLeft">
+                        <p>Take a look at</p>
+                        <h1>our Gallery</h1>
+                        <div class="site-dots d-text-c carousel-arrows"><i class="fa prev fa-angle-left"></i> <i class="fa fa-times-2"></i><i class="fa fa-times-2"></i> <i class="fa next fa-angle-right"></i></div>
+                        <a href="/galleries/" class="button-box d-border-c d-bg-c-h d-text-c">View More</a>
+
                     </div>
-<!--                    <div class="col-md-6 wow fadeInDown">-->
-<!--                        <div class="pricing-table popular-table d-bg-c">-->
-<!--                            <div class="pricing-table-price d-text-c"><span>Twitter</span></div>-->
-<!--                            <a class="twitter-timeline" href="https://twitter.com/gwam831" data-widget-id="740072657144696833"  width="500" height="500" style = "margin-left:25px;">Tweets by @gwam831</a>-->
-<!--                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><!--                            <ul class="pricing-table-stuff">-->-->
-<!--                        </div>-->
-<!--                    </div>-->
+                    <div class="row carousel-items">
+                        <?php foreach ($this->galleries as $key => $gallery){?>
+                            <?php $class = "fadeInUp";?>
+                            <?php if ($key == 0){$class = "bounceInLeft";}?>
+                            <?php if ($key == 1){$class = "fadeInDown";}?>
+                            <?php if ($key == 2){$class = "bounceInRight";}?>
+
+                            <div class="col-md-4">
+                                <div class="trainer wow <?php echo $class?>">
+                                    <a href = "/galleries/view/<?php echo $gallery['id'];?>"/>
+
+                                    <img src="/assets/uploads/galleries/<?php echo $gallery['image']?>" alt="<?php echo $gallery['image']?>" />
+
+<!--                                    <div class="trainer-info">-->
+<!--                                        <p>--><?php //echo $gallery['text']?><!--</p>-->
+<!--                                        --><?php //if(isset($gallery['name']) && !empty($gallery['name'])){?>
+<!--                                            <p>Trained By: --><?php //echo $gallery['name'];?><!--</p>-->
+<!--                                        --><?php //} ?>
+<!--                                    </div>-->
+                                    </a>
+                                </div>
+                            </div>
+                        <?php } ?>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- END SOCIAL MEDIA -->
+        <!-- === END PURCHASE === -->
 
         <!-- === START SHOP === -->
         <div class="statistics-section" id="store-section">
@@ -358,6 +409,38 @@
             </div>
         </div>
         <!-- === END SHOP === -->
+
+        <div class="faq-section" id="faq-section">
+            <div class="container">
+                <div class="site-title wow bounceInRight">
+                    <p>Have a question?</p>
+                    <h1>FAQ</h1>
+                    <div class="site-dots d-text-c"><i class="fa fa-times-2"></i><i class="fa fa-times-2"></i></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel-group" id="accordion">
+                            <?php foreach($this->faqs as $key => $faq){?>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-<?php echo ($key+1)?>">
+                                                <?php echo $faq['question']?>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-<?php echo ($key+1)?>" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <?php echo $faq['answer']?>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- START CONTACT SECTION -->
         <div class="contact-section" id="contact-section">

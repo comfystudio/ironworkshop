@@ -14,7 +14,7 @@
                         <li <?php echo isset($this->pageSection) && $this->pageSection == 'News' ? ' class="active"' : ''; ?>><a class="d-text-c-h" data-anchor="blog-section" href="/news/">News</a>
                         <li <?php echo isset($this->pageSection) && $this->pageSection == 'Trainers' ? ' class="active"' : ''; ?>><a class="d-text-c-h" data-anchor="trainers-section" href="<?php echo isset($this->pageSection) && $this->pageSection != 'Home' ? '/' : '#'; ?>">Trainers</a></li>
                         <li <?php echo isset($this->pageSection) && $this->pageSection == 'Results' ? ' class="active"' : ''; ?>><a class="d-text-c-h" data-anchor="results-section" href="/results/">Results</a></li>
-                        <li <?php echo isset($this->pageSection) && $this->pageSection == 'Gallery' ? ' class="active"' : ''; ?>><a class="d-text-c-h" data-anchor="derp-section" href="/galleries/">Gallery</a></li>
+                        <li <?php echo isset($this->pageSection) && $this->pageSection == 'Gallery' ? ' class="active"' : ''; ?>><a class="d-text-c-h" data-anchor="gallery-section" href="/galleries/">Gallery</a></li>
                         </li>
                         <li <?php echo isset($this->pageSection) && $this->pageSection == 'Stores' ? ' class="active"' : ''; ?>><a class="d-text-c-h" data-anchor="store-section" href="/stores/">Shop</a></li>
                         <li><a class="d-text-c-h" data-anchor="contact-section" href="/">Contact</a></li>

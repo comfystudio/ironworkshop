@@ -24,11 +24,13 @@
                             </li>
                         <?php } ?>
                     </ul>
-                    <ul class="slider-dots wow bounceInRight" data-theme-plugin="bullets">
-                        <?php foreach($this->data[0]['images'] as $image){?>
-                            <li class="d-border-c-h"><img src="/assets/uploads/trainers/<?php echo $image['image']?>" alt="<?php echo $image['title']?>" alt="<?php echo $image['title']?>"></li>
-                        <?php }?>
-                    </ul>
+                    <?php if(count($this->data[0]['images']) > 1){?>
+                        <ul class="slider-dots wow bounceInRight" data-theme-plugin="bullets">
+                            <?php foreach($this->data[0]['images'] as $image){?>
+                                <li class="d-border-c-h"><img src="/assets/uploads/trainers/<?php echo $image['image']?>" alt="<?php echo $image['title']?>" alt="<?php echo $image['title']?>"></li>
+                            <?php }?>
+                        </ul>
+                    <?php } ?>
                 </div>
             </section>
             <!-- === END SLIDER SECTION === -->

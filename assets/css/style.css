@@ -1831,6 +1831,7 @@ a {
 }
 .pricing-table {
     background: #fff;
+    /*background: #efefef;*/
     padding-bottom: 20px;
     margin-bottom: 50px;
 }
@@ -1862,6 +1863,7 @@ a {
 }
 .pricing-table.popular-table .pricing-table-price {
     background: #fff;
+    /*background: #efefef;*/
 }
 .pricing-table .pricing-table-price span {
     font-size: 22px;
@@ -2143,6 +2145,17 @@ a {
     background: #efefef;
     padding: 100px 0 60px;
 }
+
+.gallery-section {
+    background: #fff;
+    padding: 100px 0 60px;
+}
+
+.faq-section {
+    background: #fff;
+    padding: 100px 0 60px;
+}
+
 .statistics-section .statistic {
     margin-bottom: 40px;
     text-align: center;
@@ -2654,8 +2667,8 @@ a {
     text-align: center;
     line-height: 1.5em;
     margin: 0 auto 10px;
-    font-weight: 400;
-    font-style: italic;
+    font-weight: bold;
+    /*font-style: italic;*/
     font-family: 'Playfair Display', serif;
 }
 .shop-item-v1 h6 {
@@ -4060,9 +4073,11 @@ a {
     text-transform: uppercase;
 }
 .services-mark-1 .one-service p {
-    font-size: 13px;
+    /*font-size: 13px;*/
+    font-size: 17px;
     margin: 0;
-    color: #808080;
+    /*color: #808080;*/
+    color:black;
     line-height: 1.5em;
     font-family: 'Montserrat', sans-serif;
 }
@@ -4862,10 +4877,12 @@ ul li.active>.d-text-c-h, .d-text-c.active, .d-text-c-h.active, .d-text-c-h:hove
     background: none;
 }
 .panel-body {
-    color: #808080;
-    font-size: 14px;
-    font-weight: 400;
+    /*color: #808080;*/
+    color:black;
+    font-size: 20px;
+    /*font-weight: bold;*/
     line-height: 1.7em;
+    font-style: normal;
 }
 /* ------------------------- CAROUSEL CSS */
 

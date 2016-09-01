@@ -59,6 +59,14 @@ class HomeController extends BaseController {
         $this->_results = $this->loadModel('results');
         $this->_view->results = $this->_results->getAllData(false, false, 1);
 
+        //galleries
+        $this->_galleries = $this->loadModel('galleries');
+        $this->_view->galleries = $this->_galleries->getAllData(false, false, 1);
+
+        // FaQ
+        $this->_faqs = $this->loadModel('faqs');
+        $this->_view->faqs = $this->_faqs->getAllData(false, false, 1);
+
         // Render the view ($renderBody, $layout, $area)
 		$this->_view->render('home/index');
 	}
